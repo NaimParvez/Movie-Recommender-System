@@ -12,7 +12,7 @@ This project is a **content-based movie recommendation system** powered by **Pyt
 
 1. **Data Collection**: Movie metadata is fetched from TMDB.
 2. **Similarity Calculation**: A similarity matrix is created using cosine similarity between movies based on their features.
-3. **Recommendation Generation**: The app finds the top similar movies for a given input movie.
+3. **Recommendation Generation**: The app finds the top 5 similar movies for a given input movie.
 4. **Streamlit Interface**: Users interact with the model through an intuitive web app interface.
 
 ## Running the Project
