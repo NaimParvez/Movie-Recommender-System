@@ -7,7 +7,6 @@ This project is a **content-based movie recommendation system** powered by **Pyt
 - **Content-Based Recommendations**: The system generates recommendations based on movie attributes like genres, cast, and crew.
 - **Interactive Web Interface**: Built with **Streamlit** for a seamless user experience.
 - **Dynamic Similarity Matrix**: The `similarity.pkl` file storing the movie similarity matrix is automatically regenerated when the Jupyter notebook is run.
-- **Note:** After generating `similarity.pkl` copy it to the same directory where `app.py` located.
 
 ## How It Works
 
@@ -16,4 +15,4 @@ This project is a **content-based movie recommendation system** powered by **Pyt
 3. **Recommendation Generation**: The app finds the top 5 similar movies for a given input movie.
 4. **Streamlit Interface**: Users interact with the model through an intuitive web app interface.
 
-## Running the Project
+**Note:** After generating `similarity.pkl` copy it to the same directory where `app.py` located.
